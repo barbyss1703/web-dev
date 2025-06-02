@@ -1,0 +1,13 @@
+[project]
+name = "svc-payment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "asyncpg>=0.30.0",
+    "fastapi>=0.115.12",
+    "pydantic>=2.11.3",
+    "redis>=5.2.1",
+    "uvicorn>=0.34.2",
+]
